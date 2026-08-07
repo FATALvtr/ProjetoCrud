@@ -24,7 +24,7 @@ public class UsuarioDao {
             ps.setString(2, usuario.getCpf());
             ps.setString(3, usuario.getEmail());
             ps.setString(4, usuario.getTelefone());
-            ps.setDate(4, usuario.getNascimento());
+            ps.setDate(5, usuario.getNascimento());
             
             ps.execute();
             ps.close();
